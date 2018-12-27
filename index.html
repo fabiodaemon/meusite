@@ -7,12 +7,21 @@
     <link rel="stylesheet" href="Styles/style.css">
     <script src="Scripts/script.js"></script>
 </head>
+    
+            <div id="myModal" class="modal">
+             <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+                  <h2 align="center">Não repare na bagunça</h2>
+                  <p align="center">Este site precisa ainda ser Responsivo e animado</p>
+                  <p align="center">Estamos em manutenção para melhor atendê-lo!</p>
+              </div>
+           </div>
 <header>
 
 <nav>
 
     <ul class="menu-ul">
-      <li class="menu-li"><img src="Imagens/logo-branca.png" width="270px" height="60px"></li>
+      <li class="menu-li"><img src="Imagens/logo%20branca%20com%20letreiro.png" width="270px" height="60px"></li>
         <li class="menu-li"><a href="#servicos">SERVIÇOS</a></li>
         <li class="menu-li"><a href="#perfil">PERFIL</a></li>
         <li class="menu-li"><a href="#curriculo">CURRÍCULO</a></li>
@@ -20,6 +29,7 @@
         <li class="menu-li" onclick="openModal()"><a href="#">CRÉDITOS</a></li>
     </ul>
     
+<!--
             <div id="myModal" class="modal">
              <span class="close cursor" onclick="closeModal()">&times;</span>
               <div class="modal-content">
@@ -33,11 +43,12 @@
                   <p>someone @linksite icon xyz</p>
               </div>
            </div>
+-->
 </nav>
 
 </header>
 
-<body>
+<body onload="openModal()">
     
     <section>
     <div id="videoDiv"> 
@@ -279,7 +290,7 @@
      <div class="row">
          
           <div class="column">
-              <a href="http://g1.globo.com">
+              <a href="https://www.facebook.com/FD-Desenvolvimento-Gr%C3%A1fico-e-Web-336946580371210/?modal=admin_todo_tour">
               <img src="Imagens/facebook-icon.png" width="50px" height="50px">
               </a>
               <h3>Siga minha Fanpage</h3><br><br><br>
@@ -288,15 +299,15 @@
          
 
           <div class="column">
-                  <a href="http://g1.globo.com">
-                  <img src="Imagens/workana-icon.jpg" width="50px" height="50px">
+                  <a href="https://freelancers.workana.com/en/freelancer/ad0adfd144b86c6969fea6141a100c85">
+                    <img src="Imagens/workana-icon.jpg" width="50px" height="50px">
                   </a>
                   <h3>Cotação pela Workana</h3><br><br><br>
 
           </div>
 
              <div class="column">
-                 <a href="http://g1.globo.com">
+                 <a href="https://www.getninjas.com.br/anuncios/assistencia-tecnica/notebooks-e-laptops/itautec/fora-da-garantia/tecnico-em-informatica-d67d7e97-0c9a-42d3-b4db-cc47387f6463?ref=internal">
                   <img src="Imagens/getninjas-icon.jpg" width="55px" height="55px">
                  </a>
                   <h3>Serviços pelo GetNinjas</h3><br><br>
