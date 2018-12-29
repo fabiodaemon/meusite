@@ -104,7 +104,8 @@ a .round i {
 .txt {
   font-size: 14px;
   line-height: 1.45;
-    color: #ffffff;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;  
 }
 
 .type-1 a:hover {
@@ -514,4 +515,8 @@ nav {
     margin-right: 5px;
 }
 
+.portfolio-link{
+    
+    color: #000000;
+}
 
