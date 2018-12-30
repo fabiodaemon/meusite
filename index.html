@@ -1,40 +1,41 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>FD Desenvolvimento Web e Design Digital</title>
+    <title>Fabio Daemon - Website Oficial</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="Styles/style.css">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
     <script src="Scripts/script.js"></script>   
 </head>
-    
-<!--
-            <div id="myModal" class="modal">
-             <span class="close cursor" onclick="closeModal()">&times;</span>
-              <div class="modal-content">
-                  <h2 align="center">Não repare na bagunça!!</h2>
-                  <p align="center">Este site precisa ainda ser Responsivo e animado.</p>
-                  <p align="center">Estamos em manutenção para melhor atendê-lo.</p>
-              </div>
-           </div>
--->
+
 <header>
-
-<nav>
-
-    <ul class="menu-ul">
-      <li class="menu-li"><img src="Imagens/logo%20branca%20com%20letreiro.png" width="270px" height="60px"></li>
-        <li class="menu-li"><a href="#servicos">SERVIÇOS</a></li>
-        <li class="menu-li"><a href="#perfil">PERFIL</a></li>
-        <li class="menu-li"><a href="#curriculo">CURRÍCULO</a></li>
-        <li class="menu-li"><a href="#contato">CONTATO</a></li>
-        <li class="menu-li" onclick="openModal()"><a href="#">CRÉDITOS</a></li>
-    </ul>
     
-<!--
-            <div id="myModal" class="modal">
+        <nav>
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagens/logo.png" id="logo">
+                </a>
+            </div>
+            <div class="topnav">
+              <a href="#" onclick="open_menu()" id="menu-label">Menu</a>
+              <a href="#servicos">Serviços</a>
+              <a href="#perfil">Perfil</a>
+              <a href="#portfolio">Portfólio</a>
+              <a href="#curriculo">Currículo</a>
+              <a href="#contato">Contato</a>
+              <a href="#" onclick="openModal()">Créditos</a>
+              <a href="javascript:void(0);" class="icon" onclick="open_menu()">
+                <i class="fa fa-bars"></i>
+              </a>  
+            </div>
+
+        </nav>
+</header>
+
+            <div id="creditos" class="modal">
 
              <span class="close cursor" onclick="closeModal()">&times;</span>
               <div class="modal-content">
@@ -52,12 +53,8 @@
 
               </div>
            </div>
--->
-</nav>
 
-</header>
 
-<!--<body onload="openModal()">-->
     <body>
     <section>
     <div id="videoDiv"> 
@@ -69,8 +66,8 @@
             </video> 
                 <div id="videoMessage">
                     
-                    <h1 class="spacer">Bem Vindo !</h1>
-                    <h2 class="spacer">Uma nova experiência digital</h2>
+                    <h1 class="spacer">Bem Vindo </h1>
+                    <h2 class="spacer">a uma nova experiência digital</h2>
                     <h3 class="spacer"><b>#sofisticada #objetiva #elegante</b></h3><br>
 
 
@@ -86,10 +83,10 @@
                 </div>
         </div>
     </div>
-    </section>
+    </section><br><br><br>
 
 
-<h1 class="session-title" id="servicos">O que faço ?</h1>
+<h1 class="session-title" id="servicos">O QUE FAÇO ?</h1>
     <div class="row">
       <div class="column">
           <img src="Imagens/website-icon.png" width="55px" height="55px"><br><br>
@@ -120,8 +117,8 @@
         </div>
     </div><br><br><br>
     
-    <div class="banner2">
-        <h1 class="session-title" id="perfil">Quem sou ?</h1>
+    <div class="banner2"><br>
+        <h1 class="session-title" id="perfil">QUEM SOU ?</h1>
         <img src="Imagens/perfil.jpg" class="prof-small">
         <div class="prof-descricao">
             <h2>Fabio Daemon</h2><br>
@@ -226,7 +223,7 @@
         
 <div class="banner4">
     
-<h1 class="session-title" id="curriculo">CURRÍCULO PROFISSIONAL</h1>
+<h1 class="session-title" id="curriculo">CURRÍCULO PROFISSIONAL</h1><br>
     
         <div class="row">
             
@@ -235,20 +232,20 @@
               <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front"><br><br>
-                    <h1>Certificações</h1><br><br>
+                    <h1>Formação Profissional</h1><br>
                     <img src="Imagens/certificate-icon.png" style="width:100px;height:100px;">
                   </div>
                   <div class="flip-card-back">
                     <img class="flip-card-back-img" src="Imagens/certificate-icon.png"><br>
-                    <h3 style="float: left; margin-top: 15px">CERTIFICAÇÕES</h3>
+                    <h3 style="float: left; margin-top: 15px">FORMAÇÃO</h3>
                     <br><br><br><br>
                       
                       <ul class="list-card">
-                            <li>Analista de Sistemas (UNESA)</li><br>
+                            <li>Analista de Sistemas (Univ. Estácio)</li><br>
                             <li>Técnico em Informática (CREA-RJ)</li><br>
+                            <li>Web Designer (SENAI-RJ)</li><br>
                             <li>Michigan English Test (MET)</li><br>
-                            <li>Web Designer (SENAI)</li><br>
-                            <li>Español Nivele Avanzado (Coiñed)</li>
+                            <li>Español Avanzado (Coiñed/ARG)</li>
                       </ul>
                       
                   </div>
@@ -301,18 +298,19 @@
               <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front"><br><br>
-                    <h1>Ferramentas</h1><br><br>
+                    <h1>Tecnologias</h1><br><br>
                     <img src="Imagens/technology-icon.png" alt="Avatar" style="width:100px;height:100px;">
                   </div>
                   <div class="flip-card-back">
                     <img class="flip-card-back-img" src="Imagens/technology-icon.png"><br>
-                    <h3 style="float: left; margin-top: 15px"> FERRAMENTAS</h3>
+                    <h3 style="float: left; margin-top: 15px"> TECNOLOGIAS</h3>
                     <br><br><br><br>
                       
                      <ul class="list-card">
                        <li><b>Web:</b> HTML5 | CSS3 | Bootstrap</li><br>
                        <li><b>Versionamento:</b> Git | GitHub</li><br>
                        <li><b>CMS:</b> Wordpress | Joomla | WIX</li><br>
+                       <li><b>Metodologias:</b> Scrum | DevOps</li><br>
                        <li><b>Outros:</b> SEO | Google Analytics</li><br>
                      </ul> 
                       
@@ -333,12 +331,12 @@
               <div class="flip-card">
                 <div class="flip-card-inner">
                   <div class="flip-card-front"><br><br>
-                    <h1>Ferramentas</h1><br><br>
-                    <img src="Imagens/technology-icon.png" alt="Avatar" style="width:100px;height:100px;">
+                    <h1>Design</h1><br><br>
+                    <img src="Imagens/ui-icon.png" alt="Avatar" style="width:100px;height:100px;">
                   </div>
                   <div class="flip-card-back">
-                    <img class="flip-card-back-img" src="Imagens/technology-icon.png"><br>
-                    <h3 style="float: left; margin-top: 15px"> FERRAMENTAS</h3>
+                    <img class="flip-card-back-img" src="Imagens/ui-icon.png"><br>
+                    <h3 style="float: left; margin-top: 15px"> DESIGN</h3>
                     <br><br><br><br>
                       
                      <ul class="list-card">
@@ -371,8 +369,8 @@
                          <li>Suporte a Hardware e Sistemas</li><br>
                          <li>Desenvolvimento e Design Web</li><br>
                          <li>Ensino de TI e Design</li><br>
-                         <li>Trabalho na Nova Zelândia e Argentina</li><br>
-                         <li>Voluntário em ONGS e Eventos</li><br>
+                         <li>Work & Study na Nova Zelândia e Argentina</li><br>
+                         <li>Voluntário em Eventos e ONGs</li><br>
                        </ul>
                       
                   </div>
@@ -410,7 +408,7 @@
         </div>
                 <br><br>
    
-        </div>
+        </div><br><br>
         
 
 <div class="banner3">

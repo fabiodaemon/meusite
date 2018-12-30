@@ -1,11 +1,21 @@
 function openModal() {
    
-    document.getElementById('myModal').style.display = "block";
+    document.getElementById('creditos').style.display = "block";
 
 };
 
 function closeModal() {
     
-    document.getElementById('myModal').style.display = "none";
+    document.getElementById('creditos').style.display = "none";
 
 };
+
+
+function open_menu() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
