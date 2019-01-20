@@ -2,7 +2,7 @@ function openModal() {
    
     document.getElementById('creditos').style.display = "block";
 
-};
+}; 
 
 function closeModal() {
     
