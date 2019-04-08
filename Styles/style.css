@@ -541,10 +541,14 @@ nav {
     color: #000000;
 }
 
-#logo{
+.container .navbar-brand #logo{
+    
+    display: block;
     width: 230px;
-    height: 8opx;
-    margin-left: -30px;
+    height: 80px;
+    margin-left: 500px;
+    margin-right: 0px;
+    
 }
 
 .topnav {
@@ -667,4 +671,10 @@ nav {
   color: white;
   font-size: 16px;
 /*  padding: 16px 32px;*/
+}
+
+.container .navbar-brand #logo{
+    
+    margin-left: 0px;
+    
 }
