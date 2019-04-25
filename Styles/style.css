@@ -5,6 +5,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+section{
+    
+    margin-bottom: -5px;
+}
+
+
 header{
     
     background-color: #FFC107;
@@ -17,6 +23,9 @@ footer{
     background-color: #FFC107;
     width: 100%;
     text-align: center;
+    color: #000000;
+    height: 5%;
+    font-weight: 100;
 }
 
 #videoDiv {
@@ -372,6 +381,8 @@ nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    text-align: left;
+    margin-left: 0;
 }
 
 .socialmedias-li {
